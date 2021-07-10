@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration"
+ android:background="@drawable/registration"
+    android:orientation="vertical"
+
+
+
+    >
+<EditText
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:textColorHint="#FFF7F7"
+    >
+
+
+</EditText>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:textColorHint="#FFF7F7"
+        >
+    </EditText>
+
+    <EditText
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:textColorHint="#FFF7F7"
+    >
+</EditText>
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColorHint="#FFF7F7"
+        >
+    </EditText>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Pasword"
+        android:textColorHint="#FFF7F7"
+        >
+    </EditText>
+   <Button
+     android:id="@+id/registerButtonId"
+     android:layout_marginTop="5dp"
+       android:layout_marginLeft="140dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Register"
+       android:background="#0000"
+
+       >
+
+
+   </Button>
+</LinearLayout>

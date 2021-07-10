@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/home"
+    android:orientation="vertical"
+
+
+
+
+    >
+
+    <TextView
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="Already have an account?"
+        android:textSize="28dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+
+        android:id="@+id/signin"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:textSize="20dp"
+
+        android:background="#0000"
+        >
+
+
+
+
+    </Button>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="60dp"
+
+
+    >
+
+
+
+
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <RadioButton
+
+            android:id="@+id/student"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Hire a tutor"
+            android:textColor="#070707"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+        <RadioButton
+
+            android:id="@+id/tutor"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Become a tutor"
+            android:textColor="#141414"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+            />
+    </RadioGroup>
+
+    <Button
+
+        android:id="@+id/registration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#0000"
+        android:text="Continue"
+        android:textSize="25dp" />
+</LinearLayout>
+</LinearLayout>
+
