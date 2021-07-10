@@ -1,4 +1,4 @@
-# Tution-Finder
+# Tution Finder
 
 CSE 2200 : Software Development - II
 
